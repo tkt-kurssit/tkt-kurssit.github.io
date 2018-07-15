@@ -1,0 +1,80 @@
+[
+  {
+    "id": "hy-tkt10002",
+    "name": "Ohjelmoinnin perusteet",
+    "url": "https://courses.helsinki.fi/fi/tkt10002",
+    "courseCode": "TKT10002",
+    "materialLanguage": "fi",
+    "lectureLanguage": "fi",
+    "organiser": "hy",
+    "department": "cs",
+    "preReqs": [],
+    "level": "basic",
+    "tags": ["programming", "introductory"]
+  },
+  {
+    "id": "hy-tkt10003",
+    "name": "Ohjelmoinnin jatkokurssi",
+    "url": "https://courses.helsinki.fi/fi/tkt10003",
+    "courseCode": "TKT10003",
+    "materialLanguage": "fi",
+    "lectureLanguage": "fi",
+    "organiser": "hy",
+    "department": "cs",
+    "preReqs": ["TKT10002"],
+    "level": "basic",
+    "tags": ["programming"]
+  },
+  {
+    "id": "hy-csm13401",
+    "name": "Human computer interaction",
+    "url": "https://courses.helsinki.fi/en/csm13401",
+    "courseCode": "csm13401",
+    "materialLanguage": "en",
+    "lectureLanguage": "en",
+    "organiser": "hy",
+    "department": "cs",
+    "preReqs": [],
+    "level": "intermediate",
+    "tags": ["ui"]
+  },
+  {
+    "id": "hy-csm13402",
+    "name": "Designing Interactive Systems",
+    "url": "https://courses.helsinki.fi/en/csm13401",
+    "courseCode": "csm13401",
+    "materialLanguage": "en",
+    "lectureLanguage": "en",
+    "organiser": "hy",
+    "department": "cs",
+    "preReqs": [],
+    "level": "intermediate",
+    "tags": ["ui"]
+  },
+  {
+    "id": "hy-data15003",
+    "name": "Interactive Data Visualization",
+    "url": "https://courses.helsinki.fi/en/data15003",
+    "courseCode": "data15003",
+    "materialLanguage": "en",
+    "lectureLanguage": "en",
+    "organiser": "hy",
+    "department": "cs",
+    "preReqs": [],
+    "level": "intermediate",
+    "tags": ["ui"]
+  },
+  {
+    "id": "aa-MUO-E3024",
+    "name": "User Inspired Design Knowing",
+    "url": "https://mycourses.aalto.fi/course/view.php?id=22160#section-0",
+    "courseCode": "MUO-E3024",
+    "materialLanguage": "en",
+    "lectureLanguage": "en",
+    "organiser": "aalto",
+    "department": "muo",
+    "preReqs": [],
+    "level": "intermediate",
+    "tags": ["ui"]
+  }
+]

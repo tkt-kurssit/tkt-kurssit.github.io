@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Courses</title>
+  <meta name="description" content="Courses">
+  <meta name="author" content="TKO-aly">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="assets/vue.js"></script>
+  <link rel="stylesheet" href="App.css">
+  <link rel="shortcut icon" href="assets/favicon.ico">
+</head>
+
+<body>
+  <div id="app">
+    <h1>Courses</h1>
+    <coursetable title="Programming courses" :courses="progrCourses"></coursetable>
+    <coursetable title="UI courses" :courses="uiCourses"></coursetable>
+  </div>
+  <script src="App.js"></script>
+</body>
+</html>
