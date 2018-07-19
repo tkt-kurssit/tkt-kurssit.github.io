@@ -24,4 +24,4 @@ uiCourses: function () {
 
 ### Development
 
-Made with vue. No `npm` etc used.
+Made with vue. No `npm` etc used. Start a web local server (`http-server`) to develop.
