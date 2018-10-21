@@ -9,10 +9,9 @@ let coursetable = Vue.component('coursetable', {
         <th scope="col">Id</th>
         <th scope="col">Name</th>
         <th scope="col">Org</th>
-        <th scope="col">Dep</th>
         <th scope="col">level</th>
-        <th scope="col">Open material</th>
         <th scope="col">Tags</th>
+        <th scope="col">Comment</th>
       </tr>
     </thead>
     <tbody>
@@ -20,10 +19,9 @@ let coursetable = Vue.component('coursetable', {
           <td>{{ course.courseCode }}</td>
           <td><a :href="course.url">{{ course.name }}</a></td>
           <td>{{ course.organiser }}</td>
-          <td>{{ course.department }}</td>
           <td>{{ course.level  }}</td>
-          <td>{{ course.openMaterial }}</td>
           <td><span v-for="tag in course.tags"><button>{{ tag }}</button></span></td>
+          <td>{{ course.comment  }}</td>
       </tr>
     </tbody>
   </table>
@@ -41,9 +39,6 @@ new Vue({
   computed: {
     progrCourses: function () {
       return this.courses.filter(course => course.tags.includes("programming"))
-    },
-    uiCourses: function () {
-      return this.courses.filter(course => course.tags.includes("ui"))
     },
     cybersecCourses: function () {
       return this.courses.filter(course => course.tags.includes("cybersecurity"))

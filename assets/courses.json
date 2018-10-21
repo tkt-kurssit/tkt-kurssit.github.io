@@ -1,171 +1,112 @@
 [
   {
-    "id": "hy-tkt10002",
     "name": "Ohjelmoinnin perusteet",
     "url": "https://mooc.fi/",
     "courseCode": "TKT10002",
     "materialLanguage": "fi",
     "lectureLanguage": "fi",
     "organiser": "hy",
-    "department": "cs",
-    "openMaterial": "true",
     "level": "basic",
-    "tags": ["programming", "introductory"]
+    "tags": ["programming", "introductory"],
+    "comment": ""
   },
   {
-    "id": "hy-tkt10003",
     "name": "Ohjelmoinnin jatkokurssi",
     "url": "https://mooc.fi/",
     "courseCode": "TKT10003",
     "materialLanguage": "fi",
     "lectureLanguage": "fi",
     "organiser": "hy",
-    "department": "cs",
-    "openMaterial": "true",
     "level": "basic",
-    "tags": ["programming"]
+    "tags": ["programming"],
+    "comment": ""
   },
   {
-    "id": "hy-csm13401",
-    "name": "Human computer interaction",
-    "url": "https://courses.helsinki.fi/en/csm13401",
-    "courseCode": "csm13401",
-    "materialLanguage": "en",
-    "lectureLanguage": "en",
-    "organiser": "hy",
-    "department": "cs",
-    "openMaterial": "false",
-    "level": "intermediate",
-    "tags": ["ui"]
-  },
-  {
-    "id": "hy-csm13402",
-    "name": "Designing Interactive Systems",
-    "url": "https://courses.helsinki.fi/en/csm13402",
-    "courseCode": "csm13402",
-    "materialLanguage": "en",
-    "lectureLanguage": "en",
-    "organiser": "hy",
-    "department": "cs",
-    "openMaterial": "false",
-    "level": "intermediate",
-    "tags": ["ui"]
-  },
-  {
-    "id": "hy-data15003",
-    "name": "Interactive Data Visualization",
-    "url": "https://courses.helsinki.fi/en/data15003",
-    "courseCode": "data15003",
-    "materialLanguage": "en",
-    "lectureLanguage": "en",
-    "organiser": "hy",
-    "department": "cs",
-    "openMaterial": "false",
-    "level": "intermediate",
-    "tags": ["ui"]
-  },
-  {
-    "id": "aa-MUO-E3024",
-    "name": "User Inspired Design Knowing",
-    "url": "https://mycourses.aalto.fi/course/view.php?id=22160#section-0",
-    "courseCode": "muo-E3024",
-    "materialLanguage": "en",
-    "lectureLanguage": "en",
-    "organiser": "aalto",
-    "department": "muo",
-    "openMaterial": "false",
-    "level": "intermediate",
-    "tags": ["ui"]
-  },
-  {
-    "id": "hy-tkt21009",
     "name": "FullStack-websovelluskehitys",
     "url": "https://courses.helsinki.fi/en/tkt21009",
-    "courseCode": "tkt21009",
+    "courseCode": "TKT21009",
     "materialLanguage": "fi",
     "lectureLanguage": "NA",
     "organiser": "hy",
-    "department": "cs",
-    "openMaterial": "true",
     "level": "intermediate",
-    "tags": ["programming", "web"]
+    "tags": ["programming", "web"],
+    "comment": ""
   },
   {
-    "id": "hy-tkt10004",
     "name": "Tietokantojen perusteet",
     "url": "https://courses.helsinki.fi/en/tkt10004",
-    "courseCode": "tkt10004",
+    "courseCode": "TKT10004",
     "materialLanguage": "fi",
     "lectureLanguage": "fi",
     "organiser": "hy",
-    "department": "cs",
-    "openMaterial": "true",
     "level": "introduction",
-    "tags": ["programming"]
+    "tags": ["programming"],
+    "comment": ""
   },
   {
-    "id": "hy-csm13204",
     "name": "Cyber Security Base",
     "url": "http://moocfi.github.io/courses/2017/cybersecurity/",
     "courseCode": "csm13204",
     "materialLanguage": "fi",
     "lectureLanguage": "NA",
     "organiser": "hy",
-    "department": "cs",
-    "openMaterial": "true",
     "level": "intermediate",
-    "tags": ["cybersecurity"]
+    "tags": ["cybersecurity"],
+    "comment": ""
   },
   {
-    "id": "aalto-CS-C3130",
     "name": "Information security",
     "url": "https://mycourses.aalto.fi/course/view.php?id=20561",
     "courseCode": "CS-C3130",
     "materialLanguage": "en",
     "lectureLanguage": "en",
     "organiser": "aalto",
-    "department": "cs",
-    "openMaterial": "true",
     "level": "intermediate",
-    "tags": ["cybersecurity"]
+    "tags": ["cybersecurity"],
+    "comment": ""
   },
   {
-    "id": "aalto-CS-C3170",
     "name": "Web Software Development",
     "url": "https://version.aalto.fi/gitlab/oseppala/wsd2017",
     "courseCode": "CS-C3130",
     "materialLanguage": "en",
     "lectureLanguage": "en",
     "organiser": "aalto",
-    "department": "cs",
-    "openMaterial": "true",
     "level": "intermediate",
-    "tags": ["programming", "web"]
+    "tags": ["programming", "web"],
+    "comment": "Django, http://lectures.webcourse.niksula.hut.fi/"
   },
   {
-    "id": "aalto-CS-E4580",
     "name": "Programming Parallel Computers",
     "url": "https://users.ics.aalto.fi/suomela/ppc-2017/",
     "courseCode": "CS-E4580",
     "materialLanguage": "en",
     "lectureLanguage": "en",
     "organiser": "aalto",
-    "department": "cs",
-    "openMaterial": "true",
     "level": "advanced",
-    "tags": ["programming", "low-level prog"]
+    "tags": ["programming", "low-level prog"],
+    "comment": ""
   },
   {
-    "id": "aalto-python-ds",
     "name": "Practical R and Python data analysis",
     "url": "http://science-it.aalto.fi/scip/data-analysis-spring-2018/",
-    "courseCode": "",
+    "courseCode": "aalto-r-py",
     "materialLanguage": "en",
     "lectureLanguage": "en",
     "organiser": "aalto",
-    "department": "cs",
-    "openMaterial": "true",
     "level": "advanced",
-    "tags": ["programming", "datascience"]
-  }
+    "tags": ["programming", "datascience"],
+    "comment": ""
+  },
+  {
+    "name": "Introduction to data science",
+    "url": "https://courses.helsinki.fi/en/data11001/124843910",
+    "courseCode": "DATA11001",
+    "materialLanguage": "en",
+    "lectureLanguage": "en",
+    "organiser": "hy",
+    "level": "advanced",
+    "tags": ["programming", "datascience"],
+    "comment": "Nice python/numpy/pandas/scikit exercises"
+  } 
 ]
